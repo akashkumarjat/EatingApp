@@ -1,0 +1,112 @@
+$main-bg-color:#D2CFC5;
+$second-bg-color:#4B6678;
+$text-light-color: #EDF5E1;
+$text-black-color: #090909;
+
+
+
+
+@mixin sub_heading_h2 {
+    font-size: 17px;
+    color: $text-black-color;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+.Ideal_form {
+    display: flex;
+    justify-content: center;
+
+    .Ideal-weight-option {
+        border-bottom: none;
+        margin: 20px 30px 10px 30px;
+
+        a {
+            background-color: #8EE4AF;
+            @include sub_heading_h2;
+        }
+
+        a:first-child {
+            border-radius: 20px 0 0 20px;
+            border: none;
+        }
+
+        a:last-child {
+            border-radius: 0 20px 20px 0;
+            border: none;
+        }
+    }
+
+    .number-field {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .number-field__drop {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 50%;
+            height: 100%;
+            width: 182px;
+            margin-left: -91px;
+            background: linear-gradient(180deg, #33373d 0%, #1e2125 100%);
+            box-shadow: 0 1px 0 #e7e7e7;
+            border-bottom: none;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .number-field__wrap {
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            input {
+                display: block;
+                width: 110px;
+                height: 80px;
+                padding: 4px 10px 7px;
+                font-size: 30px;
+                line-height: 1.428;
+                font-weight: 600;
+                color: $text-light-color;
+                text-align: center;
+                border: none;
+                background: #f9f9f9;
+                background: linear-gradient(180deg, #33373d 0%, #1e2125 100%);
+                border-radius: 0;
+                transition: border-color 0.2s ease-in-out;
+                outline: 0 none;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+            
+
+            .number-field__label {
+                padding-top: 21px;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: #ffffff;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .Ideal_form .Ideal-weight-option {
+        margin: 20px 60px 10px 60px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Ideal_form .Ideal-weight-option {
+        margin: 20px 30px 10px 30px;
+    }
+}

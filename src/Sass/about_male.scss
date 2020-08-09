@@ -1,0 +1,218 @@
+$main-bg-color:#D2CFC5;
+$second-bg-color:#4B6678;
+$text-black-color: #090909;
+
+
+
+$main-bg-color:#D2CFC5;
+$second-bg-color:#4B6678;
+$text-light-color: #EDF5E1;
+
+// @mixin main_heading_h2 {
+//     font-size: 30px;
+//     color: #EDF5E1;
+//     font-weight: 400;
+//     text-transform: capitalize;
+//     letter-spacing: 2px;
+//     line-height: 1.35;
+//     font-family: 'Rowdies', cursive;
+// }
+
+// @mixin common_code_p {
+//     font-size: 16px;
+//     color: $text-color;
+//     font-weight: 600;
+//     font-family: 'Nunito Sans', sans-serif;
+// }
+
+
+
+
+
+
+
+
+
+@mixin common_code_h1 {
+    color: $text-light-color;
+    line-height: 1.35;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: 'Rowdies', cursive;
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+@mixin common_code_p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: $text-light-color;
+}
+
+@mixin common_code_center_div {
+    border-radius: 0.5em;
+    margin-top: 20px;
+    padding: 30px 0;
+    background-color: $second-bg-color !important;
+    width: 40vw;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+@mixin sub_heading_h2 {
+    font-size: 17px;
+    color: $text-black-color;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+// -------second header------------
+.second-header {
+    height: 50px;
+    width: 100%;
+    background-color: $second-bg-color;
+
+
+    .back-btn i {
+        text-decoration: none;
+        color: #EDF5E1;
+        font-size: 20px;
+        padding-top: 14px;
+
+        &:hover {
+            color: $main-bg-color;
+            transition: 0.5s;
+        }
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+}
+
+
+
+.parent_div {
+    background-color: $main-bg-color !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+
+    .child_div {
+        @include common_code_center_div;
+
+        h1 {
+            @include common_code_h1;
+        }
+
+        p {
+            @include common_code_p;
+        }
+
+        p:last-child {
+            font-size: 20px;
+            // letter-spacing: 3px;
+            // color: $text-black-color;
+        }
+
+        .list-item-div {
+            width: 90%;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        .list-item {
+            border-radius: 0.5em;
+            position: relative;
+            // border: solid #BDBDBD 2px;
+            margin: 10px 0px;
+            background-color: $main-bg-color;
+
+
+            .tile {
+                height: 80px;
+                width: 50%;
+                display: inline-block;
+                position: relative;
+
+                h2 {
+                    @include sub_heading_h2;
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                img {
+                    width: 100px;
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            &:hover,
+            &:active {
+
+                background-color: #EDF5E1;
+                transition: 0.5s;
+
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .parent_div .child_div {
+        width: 50vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .parent_div .child_div {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        border-top: 2px solid #D2CFC5;
+        border-radius: 0;
+        box-shadow: none;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// --------media query of second header---------
+
+@media only screen and (max-width: 768px) {
+    .logo_second {
+        margin-left: -49px;
+        width: 131px;
+    }
+}

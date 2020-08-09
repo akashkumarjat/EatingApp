@@ -1,0 +1,66 @@
+
+.unit_row {
+    background-color: #D2CFC5;
+    color: #090909;
+    border-radius: 0.5em;
+    margin: 10px 60px 0 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    label {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+        margin: auto;
+    }
+
+    .dropdown_list {
+        margin-left: 5px;
+        width: 100px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+        height: 30px;
+        background-color: #D2CFC5;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.030), 0 15px 12px rgba(0, 0, 0, 0.022);
+
+        option {
+            padding-left: 10px !important;
+            font-weight: 600;
+            font-family: 'Nunito Sans', sans-serif;
+            size: 10;
+        }
+    }
+}
+
+
+
+//------media query----------
+
+@media only screen and (max-width: 1120px) {
+    .unit_row {
+        margin: 10px 30px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .unit_row {
+        margin: 10px 0px 0 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .unit_row .dropdown_list{
+        width: 50px;
+    }
+    .unit_row label{
+        font-size: 14px;
+    }
+}
