@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/EatingApp/static/css/main.059a5037.chunk.css",
+    "main.js": "/EatingApp/static/js/main.4dd0d0e3.chunk.js",
+    "main.js.map": "/EatingApp/static/js/main.4dd0d0e3.chunk.js.map",
+    "runtime-main.js": "/EatingApp/static/js/runtime-main.cf54b21e.js",
+    "runtime-main.js.map": "/EatingApp/static/js/runtime-main.cf54b21e.js.map",
+    "static/css/2.c8fdb744.chunk.css": "/EatingApp/static/css/2.c8fdb744.chunk.css",
+    "static/js/2.268b5c2e.chunk.js": "/EatingApp/static/js/2.268b5c2e.chunk.js",
+    "static/js/2.268b5c2e.chunk.js.map": "/EatingApp/static/js/2.268b5c2e.chunk.js.map",
+    "index.html": "/EatingApp/index.html",
+    "precache-manifest.44c3d893d1cddb90ced80e8e7cee7d13.js": "/EatingApp/precache-manifest.44c3d893d1cddb90ced80e8e7cee7d13.js",
+    "service-worker.js": "/EatingApp/service-worker.js",
+    "static/css/2.c8fdb744.chunk.css.map": "/EatingApp/static/css/2.c8fdb744.chunk.css.map",
+    "static/css/main.059a5037.chunk.css.map": "/EatingApp/static/css/main.059a5037.chunk.css.map",
+    "static/js/2.268b5c2e.chunk.js.LICENSE.txt": "/EatingApp/static/js/2.268b5c2e.chunk.js.LICENSE.txt",
+    "static/media/1510305276-8424-removebg-preview.png": "/EatingApp/static/media/1510305276-8424-removebg-preview.f2a5883d.png",
+    "static/media/2933521.png": "/EatingApp/static/media/2933521.4064ba30.png",
+    "static/media/753066.png": "/EatingApp/static/media/753066.a6dbb9f9.png",
+    "static/media/Six-pack-abs-removebg-preview.png": "/EatingApp/static/media/Six-pack-abs-removebg-preview.9a74335c.png",
+    "static/media/basic-male-img-1.png": "/EatingApp/static/media/basic-male-img-1.212a54e2.png",
+    "static/media/healthy-lifestyle-fitness-girl_98292-5118-removebg-preview.png": "/EatingApp/static/media/healthy-lifestyle-fitness-girl_98292-5118-removebg-preview.d0899f43.png",
+    "static/media/jogging-28-1139596.png": "/EatingApp/static/media/jogging-28-1139596.5d48488e.png",
+    "static/media/png-transparent-running-running-man-physical-fitness-hand-sport-thumbnail-removebg-preview.png": "/EatingApp/static/media/png-transparent-running-running-man-physical-fitness-hand-sport-thumbnail-removebg-preview.a5ed9d13.png",
+    "static/media/woman-measuring-her-waist-illustration_53876-43294-removebg-preview.png": "/EatingApp/static/media/woman-measuring-her-waist-illustration_53876-43294-removebg-preview.5f4554ca.png",
+    "static/media/woman-with-measuring-tape_144627-28905-removebg-preview.png": "/EatingApp/static/media/woman-with-measuring-tape_144627-28905-removebg-preview.d402a4be.png",
+    "static/media/young-sexy-woman-fitness_98292-5116-removebg-preview.png": "/EatingApp/static/media/young-sexy-woman-fitness_98292-5116-removebg-preview.f80a6b47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf54b21e.js",
+    "static/css/2.c8fdb744.chunk.css",
+    "static/js/2.268b5c2e.chunk.js",
+    "static/css/main.059a5037.chunk.css",
+    "static/js/main.4dd0d0e3.chunk.js"
+  ]
+}
